@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A39BEA25187C10007FF7D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A39BE925187C10007FF7D8 /* AppDelegate.swift */; };
+		03A39BEC25187C10007FF7D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A39BEB25187C10007FF7D8 /* SceneDelegate.swift */; };
+		03A39BEE25187C10007FF7D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A39BED25187C10007FF7D8 /* ContentView.swift */; };
+		03A39BF025187C13007FF7D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A39BEF25187C13007FF7D8 /* Assets.xcassets */; };
+		03A39BF325187C13007FF7D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A39BF225187C13007FF7D8 /* Preview Assets.xcassets */; };
+		03A39BF625187C13007FF7D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A39BF425187C13007FF7D8 /* LaunchScreen.storyboard */; };
+		03A39C0125187C13007FF7D8 /* KinstagramUIUsingSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A39C0025187C13007FF7D8 /* KinstagramUIUsingSwiftUITests.swift */; };
+		03A39C0C25187C13007FF7D8 /* KinstagramUIUsingSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A39C0B25187C13007FF7D8 /* KinstagramUIUsingSwiftUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03A39BFD25187C13007FF7D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03A39BDE25187C10007FF7D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03A39BE525187C10007FF7D8;
+			remoteInfo = KinstagramUIUsingSwiftUI;
+		};
+		03A39C0825187C13007FF7D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03A39BDE25187C10007FF7D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03A39BE525187C10007FF7D8;
+			remoteInfo = KinstagramUIUsingSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A39BE625187C10007FF7D8 /* KinstagramUIUsingSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinstagramUIUsingSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A39BE925187C10007FF7D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03A39BEB25187C10007FF7D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		03A39BED25187C10007FF7D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03A39BEF25187C13007FF7D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03A39BF225187C13007FF7D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03A39BF525187C13007FF7D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03A39BF725187C13007FF7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03A39BFC25187C13007FF7D8 /* KinstagramUIUsingSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinstagramUIUsingSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A39C0025187C13007FF7D8 /* KinstagramUIUsingSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinstagramUIUsingSwiftUITests.swift; sourceTree = "<group>"; };
+		03A39C0225187C13007FF7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03A39C0725187C13007FF7D8 /* KinstagramUIUsingSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinstagramUIUsingSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A39C0B25187C13007FF7D8 /* KinstagramUIUsingSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinstagramUIUsingSwiftUIUITests.swift; sourceTree = "<group>"; };
+		03A39C0D25187C13007FF7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03A39BE325187C10007FF7D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A39BF925187C13007FF7D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A39C0425187C13007FF7D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A39BDD25187C10007FF7D8 = {
+			isa = PBXGroup;
+			children = (
+				03A39BE825187C10007FF7D8 /* KinstagramUIUsingSwiftUI */,
+				03A39BFF25187C13007FF7D8 /* KinstagramUIUsingSwiftUITests */,
+				03A39C0A25187C13007FF7D8 /* KinstagramUIUsingSwiftUIUITests */,
+				03A39BE725187C10007FF7D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03A39BE725187C10007FF7D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03A39BE625187C10007FF7D8 /* KinstagramUIUsingSwiftUI.app */,
+				03A39BFC25187C13007FF7D8 /* KinstagramUIUsingSwiftUITests.xctest */,
+				03A39C0725187C13007FF7D8 /* KinstagramUIUsingSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03A39BE825187C10007FF7D8 /* KinstagramUIUsingSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				03A39BE925187C10007FF7D8 /* AppDelegate.swift */,
+				03A39BEB25187C10007FF7D8 /* SceneDelegate.swift */,
+				03A39BED25187C10007FF7D8 /* ContentView.swift */,
+				03A39BEF25187C13007FF7D8 /* Assets.xcassets */,
+				03A39BF425187C13007FF7D8 /* LaunchScreen.storyboard */,
+				03A39BF725187C13007FF7D8 /* Info.plist */,
+				03A39BF125187C13007FF7D8 /* Preview Content */,
+			);
+			path = KinstagramUIUsingSwiftUI;
+			sourceTree = "<group>";
+		};
+		03A39BF125187C13007FF7D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				03A39BF225187C13007FF7D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03A39BFF25187C13007FF7D8 /* KinstagramUIUsingSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03A39C0025187C13007FF7D8 /* KinstagramUIUsingSwiftUITests.swift */,
+				03A39C0225187C13007FF7D8 /* Info.plist */,
+			);
+			path = KinstagramUIUsingSwiftUITests;
+			sourceTree = "<group>";
+		};
+		03A39C0A25187C13007FF7D8 /* KinstagramUIUsingSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03A39C0B25187C13007FF7D8 /* KinstagramUIUsingSwiftUIUITests.swift */,
+				03A39C0D25187C13007FF7D8 /* Info.plist */,
+			);
+			path = KinstagramUIUsingSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03A39BE525187C10007FF7D8 /* KinstagramUIUsingSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A39C1025187C13007FF7D8 /* Build configuration list for PBXNativeTarget "KinstagramUIUsingSwiftUI" */;
+			buildPhases = (
+				03A39BE225187C10007FF7D8 /* Sources */,
+				03A39BE325187C10007FF7D8 /* Frameworks */,
+				03A39BE425187C10007FF7D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KinstagramUIUsingSwiftUI;
+			productName = KinstagramUIUsingSwiftUI;
+			productReference = 03A39BE625187C10007FF7D8 /* KinstagramUIUsingSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03A39BFB25187C13007FF7D8 /* KinstagramUIUsingSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A39C1325187C13007FF7D8 /* Build configuration list for PBXNativeTarget "KinstagramUIUsingSwiftUITests" */;
+			buildPhases = (
+				03A39BF825187C13007FF7D8 /* Sources */,
+				03A39BF925187C13007FF7D8 /* Frameworks */,
+				03A39BFA25187C13007FF7D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03A39BFE25187C13007FF7D8 /* PBXTargetDependency */,
+			);
+			name = KinstagramUIUsingSwiftUITests;
+			productName = KinstagramUIUsingSwiftUITests;
+			productReference = 03A39BFC25187C13007FF7D8 /* KinstagramUIUsingSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03A39C0625187C13007FF7D8 /* KinstagramUIUsingSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A39C1625187C13007FF7D8 /* Build configuration list for PBXNativeTarget "KinstagramUIUsingSwiftUIUITests" */;
+			buildPhases = (
+				03A39C0325187C13007FF7D8 /* Sources */,
+				03A39C0425187C13007FF7D8 /* Frameworks */,
+				03A39C0525187C13007FF7D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03A39C0925187C13007FF7D8 /* PBXTargetDependency */,
+			);
+			name = KinstagramUIUsingSwiftUIUITests;
+			productName = KinstagramUIUsingSwiftUIUITests;
+			productReference = 03A39C0725187C13007FF7D8 /* KinstagramUIUsingSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03A39BDE25187C10007FF7D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = noodlekim;
+				TargetAttributes = {
+					03A39BE525187C10007FF7D8 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					03A39BFB25187C13007FF7D8 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 03A39BE525187C10007FF7D8;
+					};
+					03A39C0625187C13007FF7D8 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 03A39BE525187C10007FF7D8;
+					};
+				};
+			};
+			buildConfigurationList = 03A39BE125187C10007FF7D8 /* Build configuration list for PBXProject "KinstagramUIUsingSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03A39BDD25187C10007FF7D8;
+			productRefGroup = 03A39BE725187C10007FF7D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03A39BE525187C10007FF7D8 /* KinstagramUIUsingSwiftUI */,
+				03A39BFB25187C13007FF7D8 /* KinstagramUIUsingSwiftUITests */,
+				03A39C0625187C13007FF7D8 /* KinstagramUIUsingSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03A39BE425187C10007FF7D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A39BF625187C13007FF7D8 /* LaunchScreen.storyboard in Resources */,
+				03A39BF325187C13007FF7D8 /* Preview Assets.xcassets in Resources */,
+				03A39BF025187C13007FF7D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A39BFA25187C13007FF7D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A39C0525187C13007FF7D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03A39BE225187C10007FF7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A39BEA25187C10007FF7D8 /* AppDelegate.swift in Sources */,
+				03A39BEC25187C10007FF7D8 /* SceneDelegate.swift in Sources */,
+				03A39BEE25187C10007FF7D8 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A39BF825187C13007FF7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A39C0125187C13007FF7D8 /* KinstagramUIUsingSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A39C0325187C13007FF7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A39C0C25187C13007FF7D8 /* KinstagramUIUsingSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03A39BFE25187C13007FF7D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03A39BE525187C10007FF7D8 /* KinstagramUIUsingSwiftUI */;
+			targetProxy = 03A39BFD25187C13007FF7D8 /* PBXContainerItemProxy */;
+		};
+		03A39C0925187C13007FF7D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03A39BE525187C10007FF7D8 /* KinstagramUIUsingSwiftUI */;
+			targetProxy = 03A39C0825187C13007FF7D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03A39BF425187C13007FF7D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A39BF525187C13007FF7D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03A39C0E25187C13007FF7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03A39C0F25187C13007FF7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03A39C1125187C13007FF7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KinstagramUIUsingSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = T8JM8TER43;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KinstagramUIUsingSwiftUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noodlekim.swift-ui-kinstagram.KinstagramUIUsingSwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03A39C1225187C13007FF7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KinstagramUIUsingSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = T8JM8TER43;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = KinstagramUIUsingSwiftUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noodlekim.swift-ui-kinstagram.KinstagramUIUsingSwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03A39C1425187C13007FF7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8JM8TER43;
+				INFOPLIST_FILE = KinstagramUIUsingSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noodlekim.swift-ui-kinstagram.KinstagramUIUsingSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KinstagramUIUsingSwiftUI.app/KinstagramUIUsingSwiftUI";
+			};
+			name = Debug;
+		};
+		03A39C1525187C13007FF7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8JM8TER43;
+				INFOPLIST_FILE = KinstagramUIUsingSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noodlekim.swift-ui-kinstagram.KinstagramUIUsingSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KinstagramUIUsingSwiftUI.app/KinstagramUIUsingSwiftUI";
+			};
+			name = Release;
+		};
+		03A39C1725187C13007FF7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8JM8TER43;
+				INFOPLIST_FILE = KinstagramUIUsingSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noodlekim.swift-ui-kinstagram.KinstagramUIUsingSwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KinstagramUIUsingSwiftUI;
+			};
+			name = Debug;
+		};
+		03A39C1825187C13007FF7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8JM8TER43;
+				INFOPLIST_FILE = KinstagramUIUsingSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noodlekim.swift-ui-kinstagram.KinstagramUIUsingSwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KinstagramUIUsingSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03A39BE125187C10007FF7D8 /* Build configuration list for PBXProject "KinstagramUIUsingSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A39C0E25187C13007FF7D8 /* Debug */,
+				03A39C0F25187C13007FF7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03A39C1025187C13007FF7D8 /* Build configuration list for PBXNativeTarget "KinstagramUIUsingSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A39C1125187C13007FF7D8 /* Debug */,
+				03A39C1225187C13007FF7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03A39C1325187C13007FF7D8 /* Build configuration list for PBXNativeTarget "KinstagramUIUsingSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A39C1425187C13007FF7D8 /* Debug */,
+				03A39C1525187C13007FF7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03A39C1625187C13007FF7D8 /* Build configuration list for PBXNativeTarget "KinstagramUIUsingSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A39C1725187C13007FF7D8 /* Debug */,
+				03A39C1825187C13007FF7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03A39BDE25187C10007FF7D8 /* Project object */;
+}
